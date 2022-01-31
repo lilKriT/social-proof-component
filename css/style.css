@@ -9,11 +9,31 @@
     --white: hsl(0, 0%, 100%)
 }
 
+html {
+    font-size: 10px;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-    font-size: 10px;
     font-family: "Spartan", sans-serif;
+}
+
+.social-proof-section {
+    background: url("/img/bg-pattern-top-desktop.svg") top left no-repeat, 
+    url("/img/bg-pattern-bottom-desktop.svg") bottom right no-repeat,
+    var(--white);
+    min-height: 100vh;
+    font-size: 1.5rem;
+}
+
+.social-proof-component {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.social-proof-upper {
+    display: flex;
 }
