@@ -21,12 +21,23 @@ html {
     font-family: "Spartan", sans-serif;
 }
 
+
+
 .social-proof-section {
     background: url("/img/bg-pattern-top-desktop.svg") top left no-repeat, 
     url("/img/bg-pattern-bottom-desktop.svg") bottom right no-repeat,
     var(--white);
     min-height: 100vh;
     font-size: 1.5rem;
+
+    color: var(--very-dark-magenta);
+    display: flex;
+    align-items: center;
+}
+
+.social-proof-section h2 {
+    font-size: 5rem;
+    font-weight: 700;
 }
 
 .social-proof-component {
@@ -36,4 +47,21 @@ html {
 
 .social-proof-upper {
     display: flex;
+    margin-bottom: 4em;
+}
+
+.social-proof-content {
+    width: 50%;
+}
+
+.social-proof-ratings {
+    width: 50%;
+}
+
+.social-proof-rating {
+    background-color: var(--light-grayish-magenta);
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-weight: 700;
 }
