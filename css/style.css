@@ -65,3 +65,14 @@ html {
     border-radius: 10px;
     font-weight: 700;
 }
+
+.social-proof-lower {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-proof-review {
+    width: 25%;
+    background-color: var(--very-dark-magenta);
+    color: var(--white);
+}
