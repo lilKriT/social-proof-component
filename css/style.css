@@ -76,3 +76,11 @@ html {
     background-color: var(--very-dark-magenta);
     color: var(--white);
 }
+
+.social-proof-portrait {
+    display: flex;
+}
+
+.social-proof-portrait img {
+    border-radius: 50%;
+}
