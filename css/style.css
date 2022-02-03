@@ -75,12 +75,17 @@ html {
     width: 25%;
     background-color: var(--very-dark-magenta);
     color: var(--white);
+
+    padding: 4rem;
+    border-radius: 10px;
 }
 
 .social-proof-portrait {
     display: flex;
+    margin-bottom: 2rem;
 }
 
 .social-proof-portrait img {
     border-radius: 50%;
+    width: 64px;
 }
