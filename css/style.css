@@ -52,15 +52,26 @@ html {
 
 .social-proof-content {
     width: 50%;
+    padding-right: 8%;
 }
 
 .social-proof-ratings {
     width: 50%;
 }
 
+.social-proof-rating:nth-child(1) {
+    margin-left: 0em;
+}
+.social-proof-rating:nth-child(2) {
+    margin-left: 2em;
+}
+.social-proof-rating:nth-child(3) {
+    margin-left: 4em;
+}
+
 .social-proof-rating {
     background-color: var(--light-grayish-magenta);
-    margin: 1rem auto;
+    margin: 1rem auto 2rem;
     padding: 1rem 2rem;
     border-radius: 10px;
     font-weight: 700;
