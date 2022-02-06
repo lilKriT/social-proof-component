@@ -83,7 +83,7 @@ html {
 }
 
 .social-proof-review {
-    width: 25%;
+    width: 32%;
     background-color: var(--very-dark-magenta);
     color: var(--white);
 
@@ -96,7 +96,16 @@ html {
     margin-bottom: 2rem;
 }
 
+.social-proof-portrait div {
+    flex-grow: 1;
+}
+
 .social-proof-portrait img {
     border-radius: 50%;
     width: 64px;
+    margin-right: 15px;
+}
+
+.social-proof-user-title {
+    color: var(--soft-pink)
 }
