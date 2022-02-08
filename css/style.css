@@ -75,6 +75,17 @@ html {
     padding: 1rem 2rem;
     border-radius: 10px;
     font-weight: 700;
+    color: var(--very-dark-magenta);
+    display: flex;
+    align-items: baseline;
+}
+
+.social-proof-rating img {
+    margin: .2rem;
+}
+
+.social-proof-rating p {
+    margin-left: 2rem;
 }
 
 .social-proof-lower {
