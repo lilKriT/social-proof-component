@@ -126,10 +126,18 @@ html {
 
 .social-proof-portrait img {
     border-radius: 50%;
-    width: 64px;
+    width: 45px;
     margin-right: 15px;
 }
 
 .social-proof-user-title {
-    color: var(--soft-pink)
+    color: var(--soft-pink);
+    margin-top: .4rem;
+}
+
+@media (max-width: 576px) {
+    .social-proof-upper {
+        display: flex;
+        flex-direction: column;
+    }
 }
