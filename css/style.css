@@ -78,6 +78,7 @@ html {
     color: var(--very-dark-magenta);
     display: flex;
     align-items: baseline;
+    width: 80%;
 }
 
 .social-proof-rating img {
@@ -101,6 +102,7 @@ html {
     padding: 4rem;
     border-radius: 10px;
     height: 250px;
+    line-height: 1.4;
 }
 
 .social-proof-review:nth-child(1) {
@@ -139,5 +141,10 @@ html {
     .social-proof-upper {
         display: flex;
         flex-direction: column;
+    }
+
+    .social-proof-content {
+        width: 100%;
+        padding: 5%;
     }
 }
