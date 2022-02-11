@@ -46,17 +46,18 @@ html {
 }
 
 .social-proof-upper {
-    display: flex;
+    display: grid;
     margin-bottom: 4em;
+
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .social-proof-content {
-    width: 50%;
-    padding-right: 8%;
+    padding-right: 15%;
 }
 
 .social-proof-ratings {
-    width: 50%;
+
 }
 
 .social-proof-rating:nth-child(1) {
