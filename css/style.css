@@ -138,10 +138,10 @@ html {
     margin-top: .4rem;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 976px) {
     .social-proof-upper {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     .social-proof-content {
