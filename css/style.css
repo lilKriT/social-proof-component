@@ -42,7 +42,7 @@ html {
 
 .social-proof-component {
     width: 80%;
-    margin: 0 auto;
+    margin: 4em auto;
 }
 
 .social-proof-upper {
@@ -102,7 +102,7 @@ html {
 
     padding: 4rem;
     border-radius: 10px;
-    height: 250px;
+    min-height: 250px;
     line-height: 1.4;
 }
 
@@ -147,5 +147,41 @@ html {
     .social-proof-content {
         width: 100%;
         padding: 5%;
+    }
+
+    .social-proof-rating {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-proof-rating:nth-child(1) {
+        margin: 1em auto;
+    }
+    .social-proof-rating:nth-child(2) {
+        margin: 1em auto;
+    }
+    .social-proof-rating:nth-child(3) {
+        margin: 1em auto;
+    }
+
+    .social-proof-lower {
+        grid-template-columns: 1fr;
+    }
+
+    .social-proof-review {
+        min-height: 0;
+    }
+
+    .social-proof-review:nth-child(1) {
+        margin-top: 1em;
+    }
+    
+    .social-proof-review:nth-child(2) {
+        margin-top: 1em;
+    }
+    
+    .social-proof-review:nth-child(3) {
+        margin-top: 1em;
     }
 }
